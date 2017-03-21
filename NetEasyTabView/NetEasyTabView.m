@@ -24,6 +24,7 @@
     CGPoint _lastPoint;
     CGPoint _endPoint;
     BOOL _beginIn;
+    NSInteger _currentIndex;
 }
 
 @property (nonatomic, strong) UIFont *defaultFont;
@@ -99,6 +100,9 @@
     self.frame = CGRectMake(self.frame.origin.x, self.frame.origin.y, (NetEasyTabItemWidth + NetEasyTabItemMargin) * self.titlesArray.count - NetEasyTabItemMargin, NetEasyTabItemHeight);
     self.midlleView.frame = self.bounds;
     self.sliderLayer.frame = CGRectMake(0, 0, NetEasyTabItemWidth, NetEasyTabItemHeight);
+    _currentIndex = 0;
+    [self layoutIfNeeded];
+    [self.midlleView layoutIfNeeded];
 
 }
 - (CGRect )setTabFrameWithIndex:(NSInteger)index{
@@ -131,6 +135,11 @@
     CGFloat coorDinateX = tmp * (NetEasyTabItemWidth+NetEasyTabItemMargin);
     [UIView animateWithDuration:0.15 animations:^{
         self.sliderLayer.frame = CGRectMake(coorDinateX,0 , NetEasyTabItemWidth, NetEasyTabItemHeight);
+    }completion:^(BOOL finished) {
+        if (_currentIndex != tmp) {
+            !_handle ? :_handle(tmp,self.titlesArray[tmp]);
+            _currentIndex = tmp;
+        }
     }];
 }
 

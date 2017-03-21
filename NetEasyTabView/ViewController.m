@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NetEasyTabView *tabView =[[NetEasyTabView alloc] initWithFrame:CGRectMake(20, 100, 0, 0) titles:@[@"单曲",@"节目",@"MV"] clickBlock:^(NSInteger index, NSString *title) {
-        
+        NSLog(@"%@  %lu",title,index);
     }];
     self.view.backgroundColor = [UIColor orangeColor];
     [self.view addSubview:tabView];
