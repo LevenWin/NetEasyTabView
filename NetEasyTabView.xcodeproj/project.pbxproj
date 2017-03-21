@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F56E261E80CF1A009DCDAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F56E251E80CF1A009DCDAA /* main.m */; };
+		04F56E291E80CF1A009DCDAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F56E281E80CF1A009DCDAA /* AppDelegate.m */; };
+		04F56E2C1E80CF1A009DCDAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F56E2B1E80CF1A009DCDAA /* ViewController.m */; };
+		04F56E2F1E80CF1A009DCDAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F56E2D1E80CF1A009DCDAA /* Main.storyboard */; };
+		04F56E311E80CF1A009DCDAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F56E301E80CF1A009DCDAA /* Assets.xcassets */; };
+		04F56E341E80CF1A009DCDAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F56E321E80CF1A009DCDAA /* LaunchScreen.storyboard */; };
+		04F56E3F1E80CF1B009DCDAA /* NetEasyTabViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F56E3E1E80CF1B009DCDAA /* NetEasyTabViewTests.m */; };
+		04F56E4A1E80CF1B009DCDAA /* NetEasyTabViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F56E491E80CF1B009DCDAA /* NetEasyTabViewUITests.m */; };
+		04F56E591E810F7C009DCDAA /* NetEasyTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F56E581E810F7C009DCDAA /* NetEasyTabView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04F56E3B1E80CF1B009DCDAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F56E191E80CF1A009DCDAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F56E201E80CF1A009DCDAA;
+			remoteInfo = NetEasyTabView;
+		};
+		04F56E461E80CF1B009DCDAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04F56E191E80CF1A009DCDAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04F56E201E80CF1A009DCDAA;
+			remoteInfo = NetEasyTabView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04F56E211E80CF1A009DCDAA /* NetEasyTabView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEasyTabView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F56E251E80CF1A009DCDAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04F56E271E80CF1A009DCDAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04F56E281E80CF1A009DCDAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04F56E2A1E80CF1A009DCDAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04F56E2B1E80CF1A009DCDAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04F56E2E1E80CF1A009DCDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04F56E301E80CF1A009DCDAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04F56E331E80CF1A009DCDAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04F56E351E80CF1A009DCDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F56E3A1E80CF1B009DCDAA /* NetEasyTabViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEasyTabViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F56E3E1E80CF1B009DCDAA /* NetEasyTabViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEasyTabViewTests.m; sourceTree = "<group>"; };
+		04F56E401E80CF1B009DCDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F56E451E80CF1B009DCDAA /* NetEasyTabViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetEasyTabViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04F56E491E80CF1B009DCDAA /* NetEasyTabViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetEasyTabViewUITests.m; sourceTree = "<group>"; };
+		04F56E4B1E80CF1B009DCDAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F56E571E810F7C009DCDAA /* NetEasyTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetEasyTabView.h; sourceTree = "<group>"; };
+		04F56E581E810F7C009DCDAA /* NetEasyTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetEasyTabView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04F56E1E1E80CF1A009DCDAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F56E371E80CF1B009DCDAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F56E421E80CF1B009DCDAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04F56E181E80CF1A009DCDAA = {
+			isa = PBXGroup;
+			children = (
+				04F56E231E80CF1A009DCDAA /* NetEasyTabView */,
+				04F56E3D1E80CF1B009DCDAA /* NetEasyTabViewTests */,
+				04F56E481E80CF1B009DCDAA /* NetEasyTabViewUITests */,
+				04F56E221E80CF1A009DCDAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04F56E221E80CF1A009DCDAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04F56E211E80CF1A009DCDAA /* NetEasyTabView.app */,
+				04F56E3A1E80CF1B009DCDAA /* NetEasyTabViewTests.xctest */,
+				04F56E451E80CF1B009DCDAA /* NetEasyTabViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04F56E231E80CF1A009DCDAA /* NetEasyTabView */ = {
+			isa = PBXGroup;
+			children = (
+				04F56E271E80CF1A009DCDAA /* AppDelegate.h */,
+				04F56E281E80CF1A009DCDAA /* AppDelegate.m */,
+				04F56E2A1E80CF1A009DCDAA /* ViewController.h */,
+				04F56E2B1E80CF1A009DCDAA /* ViewController.m */,
+				04F56E571E810F7C009DCDAA /* NetEasyTabView.h */,
+				04F56E581E810F7C009DCDAA /* NetEasyTabView.m */,
+				04F56E2D1E80CF1A009DCDAA /* Main.storyboard */,
+				04F56E301E80CF1A009DCDAA /* Assets.xcassets */,
+				04F56E321E80CF1A009DCDAA /* LaunchScreen.storyboard */,
+				04F56E351E80CF1A009DCDAA /* Info.plist */,
+				04F56E241E80CF1A009DCDAA /* Supporting Files */,
+			);
+			path = NetEasyTabView;
+			sourceTree = "<group>";
+		};
+		04F56E241E80CF1A009DCDAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04F56E251E80CF1A009DCDAA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04F56E3D1E80CF1B009DCDAA /* NetEasyTabViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				04F56E3E1E80CF1B009DCDAA /* NetEasyTabViewTests.m */,
+				04F56E401E80CF1B009DCDAA /* Info.plist */,
+			);
+			path = NetEasyTabViewTests;
+			sourceTree = "<group>";
+		};
+		04F56E481E80CF1B009DCDAA /* NetEasyTabViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04F56E491E80CF1B009DCDAA /* NetEasyTabViewUITests.m */,
+				04F56E4B1E80CF1B009DCDAA /* Info.plist */,
+			);
+			path = NetEasyTabViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04F56E201E80CF1A009DCDAA /* NetEasyTabView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F56E4E1E80CF1B009DCDAA /* Build configuration list for PBXNativeTarget "NetEasyTabView" */;
+			buildPhases = (
+				04F56E1D1E80CF1A009DCDAA /* Sources */,
+				04F56E1E1E80CF1A009DCDAA /* Frameworks */,
+				04F56E1F1E80CF1A009DCDAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NetEasyTabView;
+			productName = NetEasyTabView;
+			productReference = 04F56E211E80CF1A009DCDAA /* NetEasyTabView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04F56E391E80CF1B009DCDAA /* NetEasyTabViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F56E511E80CF1B009DCDAA /* Build configuration list for PBXNativeTarget "NetEasyTabViewTests" */;
+			buildPhases = (
+				04F56E361E80CF1B009DCDAA /* Sources */,
+				04F56E371E80CF1B009DCDAA /* Frameworks */,
+				04F56E381E80CF1B009DCDAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F56E3C1E80CF1B009DCDAA /* PBXTargetDependency */,
+			);
+			name = NetEasyTabViewTests;
+			productName = NetEasyTabViewTests;
+			productReference = 04F56E3A1E80CF1B009DCDAA /* NetEasyTabViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04F56E441E80CF1B009DCDAA /* NetEasyTabViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04F56E541E80CF1B009DCDAA /* Build configuration list for PBXNativeTarget "NetEasyTabViewUITests" */;
+			buildPhases = (
+				04F56E411E80CF1B009DCDAA /* Sources */,
+				04F56E421E80CF1B009DCDAA /* Frameworks */,
+				04F56E431E80CF1B009DCDAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04F56E471E80CF1B009DCDAA /* PBXTargetDependency */,
+			);
+			name = NetEasyTabViewUITests;
+			productName = NetEasyTabViewUITests;
+			productReference = 04F56E451E80CF1B009DCDAA /* NetEasyTabViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04F56E191E80CF1A009DCDAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Leven;
+				TargetAttributes = {
+					04F56E201E80CF1A009DCDAA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EV459VZ2V3;
+						ProvisioningStyle = Automatic;
+					};
+					04F56E391E80CF1B009DCDAA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04F56E201E80CF1A009DCDAA;
+					};
+					04F56E441E80CF1B009DCDAA = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 04F56E201E80CF1A009DCDAA;
+					};
+				};
+			};
+			buildConfigurationList = 04F56E1C1E80CF1A009DCDAA /* Build configuration list for PBXProject "NetEasyTabView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04F56E181E80CF1A009DCDAA;
+			productRefGroup = 04F56E221E80CF1A009DCDAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04F56E201E80CF1A009DCDAA /* NetEasyTabView */,
+				04F56E391E80CF1B009DCDAA /* NetEasyTabViewTests */,
+				04F56E441E80CF1B009DCDAA /* NetEasyTabViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04F56E1F1E80CF1A009DCDAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F56E341E80CF1A009DCDAA /* LaunchScreen.storyboard in Resources */,
+				04F56E311E80CF1A009DCDAA /* Assets.xcassets in Resources */,
+				04F56E2F1E80CF1A009DCDAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F56E381E80CF1B009DCDAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F56E431E80CF1B009DCDAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F56E1D1E80CF1A009DCDAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F56E2C1E80CF1A009DCDAA /* ViewController.m in Sources */,
+				04F56E291E80CF1A009DCDAA /* AppDelegate.m in Sources */,
+				04F56E591E810F7C009DCDAA /* NetEasyTabView.m in Sources */,
+				04F56E261E80CF1A009DCDAA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F56E361E80CF1B009DCDAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F56E3F1E80CF1B009DCDAA /* NetEasyTabViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04F56E411E80CF1B009DCDAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04F56E4A1E80CF1B009DCDAA /* NetEasyTabViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04F56E3C1E80CF1B009DCDAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F56E201E80CF1A009DCDAA /* NetEasyTabView */;
+			targetProxy = 04F56E3B1E80CF1B009DCDAA /* PBXContainerItemProxy */;
+		};
+		04F56E471E80CF1B009DCDAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04F56E201E80CF1A009DCDAA /* NetEasyTabView */;
+			targetProxy = 04F56E461E80CF1B009DCDAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04F56E2D1E80CF1A009DCDAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F56E2E1E80CF1A009DCDAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04F56E321E80CF1A009DCDAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04F56E331E80CF1A009DCDAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04F56E4C1E80CF1B009DCDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04F56E4D1E80CF1B009DCDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04F56E4F1E80CF1B009DCDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = EV459VZ2V3;
+				INFOPLIST_FILE = NetEasyTabView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leven.NetEasyTabView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04F56E501E80CF1B009DCDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = EV459VZ2V3;
+				INFOPLIST_FILE = NetEasyTabView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leven.NetEasyTabView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		04F56E521E80CF1B009DCDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetEasyTabViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leven.NetEasyTabViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetEasyTabView.app/NetEasyTabView";
+			};
+			name = Debug;
+		};
+		04F56E531E80CF1B009DCDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NetEasyTabViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leven.NetEasyTabViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetEasyTabView.app/NetEasyTabView";
+			};
+			name = Release;
+		};
+		04F56E551E80CF1B009DCDAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetEasyTabViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leven.NetEasyTabViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetEasyTabView;
+			};
+			name = Debug;
+		};
+		04F56E561E80CF1B009DCDAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NetEasyTabViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Leven.NetEasyTabViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NetEasyTabView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04F56E1C1E80CF1A009DCDAA /* Build configuration list for PBXProject "NetEasyTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F56E4C1E80CF1B009DCDAA /* Debug */,
+				04F56E4D1E80CF1B009DCDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04F56E4E1E80CF1B009DCDAA /* Build configuration list for PBXNativeTarget "NetEasyTabView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F56E4F1E80CF1B009DCDAA /* Debug */,
+				04F56E501E80CF1B009DCDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04F56E511E80CF1B009DCDAA /* Build configuration list for PBXNativeTarget "NetEasyTabViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F56E521E80CF1B009DCDAA /* Debug */,
+				04F56E531E80CF1B009DCDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04F56E541E80CF1B009DCDAA /* Build configuration list for PBXNativeTarget "NetEasyTabViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04F56E551E80CF1B009DCDAA /* Debug */,
+				04F56E561E80CF1B009DCDAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04F56E191E80CF1A009DCDAA /* Project object */;
+}
