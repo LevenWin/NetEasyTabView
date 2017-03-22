@@ -15,14 +15,6 @@
 #define SCREEN_WIDTH     [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT    [UIScreen mainScreen].bounds.size.height
 
-/*
- 
- 为什么tab移动不够迅速呢？估计是因为mask的问题有知道的童鞋请告知
- 
-*/
-
-
-
 @interface NetEasyTabView ()<CAAnimationDelegate>
 {
     CGPoint _beginPoint;
