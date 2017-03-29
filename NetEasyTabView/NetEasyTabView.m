@@ -27,6 +27,7 @@
     CGFloat _animationOffset;
     CGFloat _lastOffset;
     BOOL _isInBeginAnimation;
+    NSInteger _touchTapIndex;
 }
 @property (nonatomic, assign) NSInteger currentIndex;
 @property (nonatomic, copy) TabItemClickHandle handle;
@@ -150,8 +151,8 @@
         return ;
     }
     NSInteger touchIndex = [self getIndexWithPoint:point];
-    if (touchIndex != _currentIndex) {
-        _currentIndex = touchIndex;
+    if (touchIndex != _touchTapIndex) {
+        _touchTapIndex = touchIndex;
         CGFloat offset = touchIndex * (NetEasyTabItemWidth + NetEasyTabItemMargin);
         [self sliderMaskLayerWithOffset: offset antimation:YES];
     }else{
@@ -189,7 +190,7 @@
 
     CGPoint point = [touches.anyObject locationInView:self];
 
-    CGFloat offset = point.x - _beginPoint.x + (NetEasyTabItemWidth + NetEasyTabItemMargin) * _currentIndex;
+    CGFloat offset = point.x - _beginPoint.x + (NetEasyTabItemWidth + NetEasyTabItemMargin) * _touchTapIndex;
     
     if (offset + NetEasyTabItemWidth >= self.frame.size.width) {
         offset = self.frame.size.width - NetEasyTabItemWidth;
